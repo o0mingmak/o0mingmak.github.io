@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuesday</title>
+  <style>
+
+body {
+  background-image: url('assets/ ');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.marquee-container {
+      position: fixed; /* Use fixed positioning to cover the entire viewport */
+      top: 0;
+      left: 10px;
+      width: 10%;
+      height: 100%;
+      z-index: 999; /* Set a high z-index to ensure it appears above other elements */
+      overflow: hidden; /* Hide overflow content */
+      pointer-events: none;
+    }
+
+    .marquee-content {
+      white-space: nowrap; /* Prevent content from wrapping */
+      position: absolute;
+      animation: marquee 100s linear infinite; /* Adjust the animation duration */
+     
+      pointer-events: none;
+    }
+
+    @keyframes marquee {
+      
+      from {
+        transform: translateY(0%) rotate(0deg);
+      }
+
+      to {
+        transform: translateY(1000%) rotate(359deg);
+      }
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="marquee-container">
+    <div class="marquee-content">
+        <img width: 100%; style="border-top:none" src="assets2/stickerstar.png">
+    </div>
+  </div>
+    
+<div id="title">
+
+              <center>  <p>
+                    <b> My work<b>
+                        <br>
+                    <i>Experiments and documentation</i> 
+                  </p>
+                </center>
+                <br>
+
+              </div>
+
+              <center><a href="indexunit2.html"><p class="info"> Home </p> </a></center>
+               
+
+                <div id="lessons">
+
+                    
+                        <div style="background-color:#766354;" class="knowledge">
+                          <p class="titles">--</p>
+                            
+                            <div class="writing">
+                            --
+                            
+                      </div>
+                      </div>
+                    
+
+                      <div style="background-color:#506162;" class="knowledge">
+                        <p class="titles">--</p>
+
+                        <div class="writing">
+                        
+                           --
+
+                    </div>
+                      </div>
+                      
+
+                      <div style="background-color:#81889b;" class="knowledge">
+                        <p class="titles">--</p>
+                      <div class="writing"> 
+
+                        -- 
+                        
+                  </div>
+                    </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                  
+                <p class="info"></p>
+  
+</body>
+</html>
+

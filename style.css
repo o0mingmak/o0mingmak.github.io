@@ -1,0 +1,95 @@
+body{
+    background-color:#eaeaea;
+    margin: 0;
+    padding:45px 0px 0px 0px;
+}
+
+#content{
+    display:block;
+    margin: 0 auto;
+    width:90%;
+    max-width:800px;
+    color:#848484;
+    text-align:center;
+}
+
+#lessons{
+    display:block;
+    margin: 0 auto;
+    width:90%;
+    max-width:1000px;
+    color:#848484;
+    text-align:center;
+}
+
+.info{
+    margin-bottom:70px;
+}
+
+a{
+    color:#000000;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+img{
+    width: 100%;
+    border-top:1px solid black;
+}
+
+#title{
+    text-align:center;
+    display:block;
+    margin: 0 auto;
+    width:100%;
+    border-bottom:1px solid black;
+}
+
+.title{
+    margin:0px 0px 0px 0px;
+    color:black;
+    font-size:40px;
+    font-family:arial;
+}
+
+.timer{
+    color:black;
+    font-family:times;
+    margin:0px 0px 20px 0px;
+    font-size:16px;
+}
+
+.work{
+    text-align:left;
+    color:white;
+    padding:1% 0% 0% 0%;
+    margin-bottom:9%;
+    border:1px solid black;
+}
+
+.knowledge{
+    text-align:left;
+    color:rgb(255, 255, 255);
+    padding:1% 0% 0% 0%;
+    margin-bottom:9%;
+    border:1px solid black;
+}
+
+.writing{
+    font-weight:normal;
+    font-size:20px;
+    margin:0px 0px 1% 1%;
+    font-family:times;
+}
+
+.titles{
+    font-weight:bold;
+    font-size:17px;
+    margin:0% 0px 0% 1%;
+}
+
+.location{
+    font-size:14px;
+    margin:0px 0px 1% 1%;
+    font-family:times;
+}
