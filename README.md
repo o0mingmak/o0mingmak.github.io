@@ -1,0 +1,1 @@
+# o0mingmak.github.io
